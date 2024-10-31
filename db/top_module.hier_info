@@ -1,0 +1,149 @@
+|top_module
+KEY[0] => clk.IN1
+KEY[1] => ~NO_FANOUT~
+KEY[2] => ~NO_FANOUT~
+KEY[3] => ~NO_FANOUT~
+GPIO_1[0] => GPIO_1[0].IN1
+GPIO_1[1] => ~NO_FANOUT~
+GPIO_1[2] => ~NO_FANOUT~
+GPIO_1[3] => ~NO_FANOUT~
+GPIO_1[4] => ~NO_FANOUT~
+GPIO_1[5] => ~NO_FANOUT~
+GPIO_1[6] => ~NO_FANOUT~
+GPIO_1[7] => ~NO_FANOUT~
+GPIO_1[8] => ~NO_FANOUT~
+GPIO_1[9] => ~NO_FANOUT~
+GPIO_1[10] => ~NO_FANOUT~
+GPIO_1[11] => ~NO_FANOUT~
+GPIO_1[12] => ~NO_FANOUT~
+GPIO_1[13] => ~NO_FANOUT~
+GPIO_1[14] => ~NO_FANOUT~
+GPIO_1[15] => ~NO_FANOUT~
+GPIO_1[16] => ~NO_FANOUT~
+GPIO_1[17] => ~NO_FANOUT~
+GPIO_1[18] => ~NO_FANOUT~
+GPIO_1[19] => ~NO_FANOUT~
+GPIO_1[20] => ~NO_FANOUT~
+GPIO_1[21] => ~NO_FANOUT~
+GPIO_1[22] => ~NO_FANOUT~
+GPIO_1[23] => ~NO_FANOUT~
+GPIO_1[24] => ~NO_FANOUT~
+GPIO_1[25] => ~NO_FANOUT~
+GPIO_1[26] => ~NO_FANOUT~
+GPIO_1[27] => ~NO_FANOUT~
+GPIO_1[28] => ~NO_FANOUT~
+GPIO_1[29] => ~NO_FANOUT~
+GPIO_1[30] => ~NO_FANOUT~
+GPIO_1[31] => ~NO_FANOUT~
+GPIO_1[32] => ~NO_FANOUT~
+GPIO_1[33] => ~NO_FANOUT~
+GPIO_1[34] => ~NO_FANOUT~
+GPIO_1[35] => ~NO_FANOUT~
+GPIO_0[0] <= <GND>
+GPIO_0[1] <= <GND>
+GPIO_0[2] <= <GND>
+GPIO_0[3] <= <GND>
+GPIO_0[4] <= <GND>
+GPIO_0[5] <= <GND>
+GPIO_0[6] <= <GND>
+GPIO_0[7] <= <GND>
+GPIO_0[8] <= <GND>
+GPIO_0[9] <= <GND>
+GPIO_0[10] <= ShiftRegister:shift_register.out
+GPIO_0[11] <= <GND>
+GPIO_0[12] <= ShiftRegister:shift_register.out
+GPIO_0[13] <= <GND>
+GPIO_0[14] <= ShiftRegister:shift_register.out
+GPIO_0[15] <= <GND>
+GPIO_0[16] <= ShiftRegister:shift_register.out
+GPIO_0[17] <= <GND>
+GPIO_0[18] <= ShiftRegister:shift_register.out
+GPIO_0[19] <= <GND>
+GPIO_0[20] <= ShiftRegister:shift_register.out
+GPIO_0[21] <= <GND>
+GPIO_0[22] <= ShiftRegister:shift_register.out
+GPIO_0[23] <= <GND>
+GPIO_0[24] <= ShiftRegister:shift_register.out
+GPIO_0[25] <= <GND>
+GPIO_0[26] <= <GND>
+GPIO_0[27] <= <GND>
+GPIO_0[28] <= <GND>
+GPIO_0[29] <= <GND>
+GPIO_0[30] <= <GND>
+GPIO_0[31] <= <GND>
+GPIO_0[32] <= <GND>
+GPIO_0[33] <= <GND>
+GPIO_0[34] <= <GND>
+GPIO_0[35] <= <GND>
+
+
+|top_module|ShiftRegister:shift_register
+clk => clk.IN8
+in => in.IN1
+reset => reset.IN8
+out[0] <= out[0].DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1].DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2].DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3].DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out[4].DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out[5].DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out[6].DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= vDff:dff7.q
+
+
+|top_module|ShiftRegister:shift_register|vDff:dff0
+clk => q~reg0.CLK
+d => temp.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reset => temp.OUTPUTSELECT
+
+
+|top_module|ShiftRegister:shift_register|vDff:dff1
+clk => q~reg0.CLK
+d => temp.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reset => temp.OUTPUTSELECT
+
+
+|top_module|ShiftRegister:shift_register|vDff:dff2
+clk => q~reg0.CLK
+d => temp.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reset => temp.OUTPUTSELECT
+
+
+|top_module|ShiftRegister:shift_register|vDff:dff3
+clk => q~reg0.CLK
+d => temp.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reset => temp.OUTPUTSELECT
+
+
+|top_module|ShiftRegister:shift_register|vDff:dff4
+clk => q~reg0.CLK
+d => temp.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reset => temp.OUTPUTSELECT
+
+
+|top_module|ShiftRegister:shift_register|vDff:dff5
+clk => q~reg0.CLK
+d => temp.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reset => temp.OUTPUTSELECT
+
+
+|top_module|ShiftRegister:shift_register|vDff:dff6
+clk => q~reg0.CLK
+d => temp.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reset => temp.OUTPUTSELECT
+
+
+|top_module|ShiftRegister:shift_register|vDff:dff7
+clk => q~reg0.CLK
+d => temp.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reset => temp.OUTPUTSELECT
+
+
