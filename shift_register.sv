@@ -15,6 +15,6 @@ module ShiftRegister(
         if(reset)
             out <= 7'b0000000;
         else 
-            out <= {out[6:1], in};
+            out <= {out[6:0], in};
     end
 endmodule

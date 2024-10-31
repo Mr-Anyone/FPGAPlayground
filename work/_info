@@ -10,15 +10,15 @@ cModel Technology
 dC:/intelFPGA_lite/18.1
 vShiftRegister
 Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 !s110 1730405979
+Z1 !s110 1730406787
 !i10b 1
-!s100 hbIdnl8f01CibKWJO=A5M2
-IcUm8^T?I05XKzVTT:7nmT1
+!s100 HAh=]eAUVRIBkn]4Xo`Sk0
+I:Ezi>UXno^]W6kT3d<MBl2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 !s105 shift_register_sv_unit
 S1
 Z3 dC:/Users/Vince/Desktop/shift register
-w1730405746
+w1730406629
 8C:/Users/Vince/Desktop/shift register/shift_register.sv
 FC:/Users/Vince/Desktop/shift register/shift_register.sv
 L0 3
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1730405979.000000
+Z5 !s108 1730406787.000000
 !s107 C:/Users/Vince/Desktop/shift register/shift_register.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Vince/Desktop/shift register/shift_register.sv|
 !i113 1
@@ -52,8 +52,8 @@ r1
 !s85 0
 31
 R5
-!s107 C:/Users/Vince/Desktop/shift register/top_module.sv|
-Z10 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Vince/Desktop/shift register/top_module.sv|
+Z10 !s107 C:/Users/Vince/Desktop/shift register/top_module.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Vince/Desktop/shift register/top_module.sv|
 !i113 1
 R6
 R7
@@ -76,8 +76,32 @@ r1
 !s85 0
 31
 !s108 1730360042.000000
-!s107 C:/Users/Vince/Desktop/shift register/top_module.sv|
 R10
+R11
+!i113 1
+R6
+R7
+vtop_module_test
+R0
+R1
+!i10b 1
+!s100 OelLXcdUL1PzS>EeblWV11
+IJN=^kT?d>9iP3ZdDEU<Pg0
+R2
+!s105 top_module_test_sv_unit
+S1
+R3
+w1730406785
+8C:/Users/Vince/Desktop/shift register/top_module_test.sv
+FC:/Users/Vince/Desktop/shift register/top_module_test.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Vince/Desktop/shift register/top_module_test.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Vince/Desktop/shift register/top_module_test.sv|
 !i113 1
 R6
 R7

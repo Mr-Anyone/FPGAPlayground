@@ -20,8 +20,18 @@ module top_module_test();
     end
 
     initial begin 
-        #5 
-        $stop
+        #2
+        in = 1'b1;
+        reset = 1'b1;
+        #1 
+        reset = 1'b0;
+        
+        #10
+        in = 1'b0; 
+        #70 
+        // wated for 8 clock cycles
+
+        $stop;
     end 
 
 endmodule
